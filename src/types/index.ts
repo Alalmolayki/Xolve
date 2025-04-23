@@ -24,6 +24,7 @@ export interface Shape {
     volume?: string;
   };
   realLifeExamples: string[];
+  imageUrl?: string;  
 }
 
 export interface Article {
