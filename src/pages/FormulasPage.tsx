@@ -1,5 +1,3 @@
-import React from 'react';
-
 const FormulasPage = () => {
   return (
     <div className="container mx-auto px-4">

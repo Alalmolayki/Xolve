@@ -77,7 +77,7 @@ export default function TestModule() {
     return (
       <div className="max-w-4xl mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-8">Sonuçlar</h1>
-        {questions.map((question, index) => {
+        {questions.map((question) => {
           const isCorrect = answers[question.id] === question.correctAnswer;
           return (
             <div key={question.id} className="card mb-4">
